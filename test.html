@@ -1,16 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <style>
+        #header{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #nav{
+
+        }
+
+        #main {
+            background-image: url("background.jpg");
+            height: 799px;
+        }
+        #nadpis{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+        }
+        .karta{
+            width: 200px;
+        }
+        #karty{
+            display: flex;
+        }
+
+    </style>
+
     <meta charset="UTF-8">
     <title>Top garden</title>
 </head>
 
 <body>
-    <h1>Top Garden</h1>
+<div id="header">
+    <div style="text-align: left; width: 200px">
+        <h1>Top Garden</h1>
+    </div>
+    <div id="nav" style="align-self: center">
+        <a href="#main">Domu</a>
+        <a href="#karty">O nas</a>
+        <a>Kontakt</a>
+    </nav>
+    </div>
+</div>
 
-<nav style="align-self: end">
-    <a>aksjd</a>
-</nav>
+<div id="main">
+    <h1 id="nadpis" style="display: grid; place-items: center; height: 800px">Vítejte ve společnosti Top Garden</h1>
+</div>
+
+<br>
+
+<h2>Služby</h2>
+
+<div id="karty">
+    <div class="karta">
+        <h3>Zahradnictvi</h3>
+        <img src="icon1.png">
+        <p>Udelame Vam zahradu na miru.</p>
+    </div>
+
+    <div class="karta">
+        <h3>Kytky</h3>
+        <img src="icon2.png">
+        <p>Prodame Vam vsechny kytky co potrebujete.</p>
+    </div>
+
+    <div class="karta">
+        <h3>Lesnictvi</h3>
+        <img src="icon3.png">
+        <p>Zasadime Vam vsechny mozne stromy ktere si jen predstavite.</p>
+    </div>
+</div>
+
+<div>
+    <h1>Contact form</h1>
+    <form></form>
+</div>
 
 </body>
 </html>
